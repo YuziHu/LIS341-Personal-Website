@@ -24,6 +24,10 @@ img{
 	position: relative;
 }
 
+/* Header */
+
+
+
 /* Section - Main */
 section.main::after{
 	content: "";
@@ -31,10 +35,16 @@ section.main::after{
 	clear: both;
 }
 
+section.main{
+	position: relative;
+}
+
 section.main p{
 	width: 300px;
 	height: 400px;
-	float: right;
+	position: absolute;
+	right: 50px;
+	margin-right: 190px;
 	margin-top: 80px;
 }
 
